@@ -48,7 +48,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn geopandas
 ## Additional Information
 
 The GPS_Dwell_Codes.ipynb notebook contains detailed comments and explanations for each code section.
-
 **License**
 
 This code is provided under the [MIT License](LICENSE).
