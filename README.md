@@ -1,38 +1,37 @@
-**GPS Data Analysis For Individual Dwell**
+# GPS Data Analysis For Individual Dwell
 
-This repository contains Python code for the analysis and visualization of GPS data. The code is designed to process GPS data, estimate dwell periods, and create insightful visualizations to understand user behavior and spatial patterns.
+This repository contains code for find Individual Dwells from GPS data using K-Means and DBSCAN algorithms for clustering and Individual Dwell estimation, as well as performing analysis on the clustered data.
 
-## Code Overview
+## Purpose
+
+The purpose of this repository is to analyse and visualize of GPS data.The code is designed to process GPS data, estimate dwell periods, and create insightful visualizations to understand user behavior and spatial patterns.
 
 ### Dependencies
 
-Before running the code, ensure you have the following dependencies installed:
+To run the code in this repository, you will need:
+- Python 3
 
-- pandas
-- matplotlib
-- seaborn
+**Install Dependencies:**
+Ensure you have the required dependencies installed. If not, install them using:
+- Jupyter Notebook or any Python IDE (e.g., PyCharm, VSCode)
+- Required Python packages:
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - geopandas
 
-You can install them using the following command:
+You can install the required packages using pip:
 
 ```bash
-pip install pandas matplotlib seaborn
-```
+pip install pandas numpy scikit-learn matplotlib seaborn geopandas
 
-### Files
+**Files**
 
 1. GPS_Dwell_Codes.ipynb: Jupyter Notebook containing the main code for GPS data analysis and visualization.
 
-2. (https://gps-london.s3.eu-west-2.amazonaws.com/gps.csv): link of Sample GPS data in CSV format. You can replace this file with your own GPS data.
-
-3. **README.md**: Documentation explaining the purpose of the repository and instructions to run the code.
-
-
-
-2. **Install Dependencies:**
-
-   Ensure you have the required dependencies installed. If not, install them using:
-
-   pip install -r requirements.txt
+2. (https://gps-london.s3.eu-west-2.amazonaws.com/gps.csv): link to download GPS data in CSV format. You can replace this file with your own GPS data.
 
 3. **Run the Jupyter Notebook:**
 
