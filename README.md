@@ -1,4 +1,4 @@
-GPS Data Analysis For Individual Dwell
+**GPS Data Analysis For Individual Dwell**
 
 This repository contains Python code for the analysis and visualization of GPS data. The code is designed to process GPS data, estimate dwell periods, and create insightful visualizations to understand user behavior and spatial patterns.
 
