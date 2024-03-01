@@ -29,7 +29,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn geopandas
 
 **Files**
 
-1. GPS_Dwell_Codes.ipynb: Jupyter Notebook containing the main code for GPS data analysis and visualization.
+1. GPS_Dwell_Code.ipynb: Jupyter Notebook containing the main code for GPS data analysis and visualization.
 
 2. (https://gps-london.s3.eu-west-2.amazonaws.com/gps.csv): link to download GPS data in CSV format. You can replace this file with your own GPS data.
 
@@ -47,7 +47,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn geopandas
 
 ## Additional Information
 
-The GPS_Dwell_Codes.ipynb notebook contains detailed comments and explanations for each code section.
+The GPS_Dwell_Code.ipynb notebook contains detailed comments and explanations for each code section.
 **License**
 
 This code is provided under the [MIT License](LICENSE).
